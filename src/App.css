@@ -1,0 +1,280 @@
+.App {
+  text-align: center;
+ 
+  background-color: #ffffff;
+}
+
+.offcanvas.offcanvas-top{
+  height: 90vh;
+}
+.owner{
+  font-size: small;
+}
+.main-image{
+  background-image: url("//cdn.shopify.com/s/files/1/2610/6950/files/IMG_2456_1000x.jpg?v=1651243305");
+  background-size: 100%;
+  height: 40vw;
+  opacity: 0.9;
+  object-fit: cover;
+  
+
+ 
+  top: 0;
+  left: 0;
+  width: 100%;
+
+
+}
+  
+.main-image>button{
+  margin-top: 15rem;
+}
+.btn_hov{
+  transition: all .7s ease-out;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+
+  
+}
+.shopnow{
+ opacity: 0.6;
+ color: brown;
+ background-color: transparent;
+  margin: 5rem;
+}
+.card-img-top:hover{
+  transform: scale(1.1);
+}
+.btn_hov:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+  transition: all .5s ease-out;
+}
+
+.card{
+  transition:transform.5s;
+  margin: 1rem;
+
+  padding: 0;
+  overflow: hidden;
+}
+.card-wrapper{
+
+  height: fit-content;
+  overflow: hidden;
+}
+
+.main_image_container{
+ 
+  height: fit-content;
+  overflow: hidden;
+}
+.card-img-top {
+  
+    height: 30vw;
+    object-fit: cover;
+
+   
+    top: 0;
+    left: 0;
+    width: 100%;
+  
+    transition: all .5s ease-out;
+   
+}
+.Featured-container{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.card-body{
+  z-index: 2;
+  
+  background-color: #e1c9b6;
+}
+.card-brand, .card-price {
+  color: #4a4a4a;
+  font-size: 1.2rem;
+  letter-spacing: 1.7px;
+}
+
+h1,h2,h3,h4,h5,h6{letter-spacing: inherit;
+text-transform: inherit;
+font-family: ITC Berkeley Old Style,serif;
+font-style: normal;
+font-weight: 400;
+color: #4a4a4a;}
+
+.accesory:hover{
+  transform: scale(1.1);
+}
+.accesory{
+
+
+  background-image: url("https://cdn.shopify.com/s/files/1/2610/6950/files/IMG_7607_900x.jpg?v=1625317182");
+  transition: all .5s ease-out;
+  height: 60vw;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background-size:cover;
+  color:white;
+
+/* width:50%;
+ 
+  height: 60vw;
+ background-size:contain;
+ transition: all .5s ease-out;
+
+ 
+ display: flex;
+ justify-content: center;
+ align-items: center; */
+
+
+}
+.accesories{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  overflow: hidden;
+  height: 100vh;
+}
+
+
+.story_pic{
+
+  
+  
+  background-image: url("https://cdn.shopify.com/s/files/1/2610/6950/products/IMG_3148_720x.jpg?v=1659519927");
+  margin-right: 5px;
+
+  width: 100%;
+  
+ 
+ 
+ background-size:cover;
+
+
+ 
+ 
+}
+.tops:hover{
+  transform: scale(1.1);
+}
+.tops{
+  background-image: url("https://cdn.shopify.com/s/files/1/2610/6950/files/IMG_1266_900x.jpg?v=1651244189"); 
+
+  transition: all .5s ease-out;
+  height: 60vw;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background-size:contain;
+  color:white;
+ /* background-size:contain;
+
+
+ width:50%;
+
+display: flex;
+justify-content: center;
+align-items: center; */
+
+
+}
+
+.nav-link{
+  color: white;
+}
+.navbar-toggler{
+  background-color: #ede6e0;
+  opacity: 0.8;
+  
+}
+#navbar{
+  
+  opacity:1;
+  z-index: 10;
+  align-content: space-around;
+  height:3.5rem;
+}
+
+
+
+.local{
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.story_content{
+  background-color: #ead8c7;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+ul {
+  list-style-type: none;
+}
+.footer{
+
+  align-content: flex-end;
+    background-color: #e1c9b4;
+    color: #4a4a4a;
+    padding: 40px 0;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.footer_bottom{
+  text-align: center;
+  background-color: #e1c9b4;
+  color: #4a4a4a;
+  padding: 40px 0;
+  justify-content: center;
+}
+.local_shop{
+  height: 80vh;
+}
+
+.offcanvas-body{
+  align-self: center;
+}
+.contact {
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+.over{
+  overflow: hidden;
+  width: 49.8%;
+  height: 100vh;
+}
+.subscribe_box{ 
+padding-left: 10px;
+margin: 0;
+background-color: transparent;
+border: 0;
+}
+
+.sub_btn{
+ 
+  border: none;
+  background-color: transparent;
+}
+.sheero{
+  width: 350px; 
+  height: 700px;
+   object-fit:contain; 
+  
+}
+.offer_cont{
+  background-color: #ffffff;
+ 
+}
+.owner{
+  text-decoration: wavy;
+}
+
