@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/The-Wadrobe/static/css/main.2101d167.css",
+    "main.js": "/The-Wadrobe/static/js/main.b273f30e.js",
+    "static/media/sheero.jpg": "/The-Wadrobe/static/media/sheero.01d7a478ac1b27aaaaa9.jpg",
+    "index.html": "/The-Wadrobe/index.html",
+    "main.2101d167.css.map": "/The-Wadrobe/static/css/main.2101d167.css.map",
+    "main.b273f30e.js.map": "/The-Wadrobe/static/js/main.b273f30e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2101d167.css",
+    "static/js/main.b273f30e.js"
+  ]
+}
